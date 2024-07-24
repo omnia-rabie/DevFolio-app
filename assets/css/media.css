@@ -1,0 +1,51 @@
+/* Medium devices*/
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+    #facts {
+        padding: 6rem 0 5rem;
+    }
+    .facts-card {
+        margin-bottom: 25px;
+    }
+}
+
+/* Small devices  */
+@media screen and (max-width: 782px) {
+    #home p {
+        font-size: 1.5rem;
+    }
+    .about-content {
+        padding: 3rem 1.25rem !important;
+    }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+    .section-title h3 {
+        font-size: 2rem;
+    }
+    .about-img {
+        margin-bottom: 20px;
+    }
+    .skills {
+        margin-bottom: 30px;
+    }
+    .service-card .icon {
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .portfolio-card .card-body {
+        flex-direction: column;
+    } 
+    .facts-item .facts-icon {
+        margin-left: 50%; 
+        /* padding-left: 200px;  */
+}
+
+}
